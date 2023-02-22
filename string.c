@@ -1,10 +1,10 @@
 #include "driver.h"
 
 /**
- * _strlen - Checks and returns string length
+ * _strlen - returns the length of a string
  * @s: the string whose length to check
  *
- * Return: length of string
+ * Return: integer length of string
  */
 int _strlen(char *s)
 {
@@ -19,11 +19,11 @@ int _strlen(char *s)
 }
 
 /**
- * _strcmp - performs comparison of two strangs.
- * @s1: the first string
- * @s2: the second string
+ * _strcmp - performs lexicogarphic comparison of two strangs.
+ * @s1: the first strang
+ * @s2: the second strang
  *
- * Return: negative if boolean var compare from result, 1, -1 or 0
+ * Return: negative if s1 < s2, positive if s1 > s2, zero if s1 == s2
  */
 int _strcmp(char *s1, char *s2)
 {
@@ -60,7 +60,7 @@ char *starts_with(const char *haystack, const char *needle)
  * @dest: the destination buffer
  * @src: the source buffer
  *
- * Return: pointer to new destination buffer
+ * Return: pointer to destination buffer
  */
 char *_strcat(char *dest, char *src)
 {

@@ -1,10 +1,11 @@
 #include "driver.h"
+
 /**
- * main - entry point
- * @ac: arg count parameter
- * @av: arg vector array
+ * main - Main function
+ * @ac: arg count
+ * @av: arg vector
  *
- * Return: 0 if success, 1 if error
+ * Return: 0 on success, 1 on error
  */
 int main(int ac, char **av)
 {

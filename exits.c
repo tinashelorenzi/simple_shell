@@ -1,26 +1,26 @@
 #include "driver.h"
 
 /**
- **_strncpy - copies a string var
- *@dest: the destination string
+ **_strncpy - copies a string
+ *@dest: the destination string to be copied to
  *@src: the source string
  *@n: the amount of characters to be copied
- *Return: the concat string
+ *Return: the concatenated string
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-	int itr, j;
+	int i, j;
 	char *s = dest;
 
-	itr = 0;
-	while (src[itr] != '\0' && itr < n - 1)
+	i = 0;
+	while (src[i] != '\0' && i < n - 1)
 	{
-		dest[itr] = src[itr];
-		itr++;
+		dest[i] = src[i];
+		i++;
 	}
-	if (itr < n)
+	if (i < n)
 	{
-		j = itr;
+		j = i;
 		while (j < n)
 		{
 			dest[j] = '\0';
