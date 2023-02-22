@@ -1,7 +1,7 @@
-#include "driver.h"
+#include "shell.h"
 
 /**
- *_eputs - prints an input string in func
+ *_eputs - prints an input string
  * @str: the string to be printed
  *
  * Return: Nothing

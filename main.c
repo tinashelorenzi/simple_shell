@@ -1,7 +1,7 @@
-#include "driver.h"
+#include "shell.h"
 
 /**
- * main - Main function
+ * main - entry point
  * @ac: arg count
  * @av: arg vector
  *

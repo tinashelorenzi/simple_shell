@@ -1,8 +1,7 @@
-#include "driver.h"
+#include "shell.h"
 
 /**
  * hsh - main shell loop
- * Repeats shell prompt
  * @info: the parameter & return info struct
  * @av: the argument vector from main()
  *
